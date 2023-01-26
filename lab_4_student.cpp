@@ -28,7 +28,7 @@ void stud::read()
 void stud::calc(int n)
 {
 	int sum=0,min=marks[0];
-	for(i=0;i<n;i++)
+	for(i=0;i<3;i++)
 	{
 		sum+=marks[i];
 		if(min>=marks[i])
